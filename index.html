@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bigbox">
+        <div class="calcbox">
+            <div class="header"><h2><b>Calculator</b></h2></div>
+            <div class="firstrow">
+                <input id="inputvalue" type="text" placeholder="" readonly>
+                <button id="clear"><i>C</i></button>
+            </div>
+            <div class="secondrow">
+                <button id="button" value="(" class="extra"><i>(</i></button>
+                <button id="button" value=")" class="extra"><i>)</i></button>
+                <button id="delete" value="D"><i>D</i></button>
+                <button id="button"value="+" class="extra"><i>+</i></button>
+            </div>
+            <div class="thirdrow">
+                <button id="button"value="7"><i>7</i></button>
+                <button id="button"value="8"><i>8</i></button>
+                <button id="button"value="9"><i>9</i></button>
+                <button id="button"value="/" class="extra"><i>/</i></button>
+            </div>
+            <div class="fourthrow">
+                <button id="button"value="4"><i>4</i></button>
+                <button id="button"value="5"><i>5</i></button>
+                <button id="button"value="6"><i>6</i></button>
+                <button id="button"value="*" class="extra"><i>*</i></button>
+            </div>
+            <div class="fifthrow">
+                <button id="button"value="1"><i>1</i></button>
+                <button id="button"value="2"><i>2</i></button>
+                <button id="button"value="3"><i>3</i></button>
+                <button id="button"value="-"  class="extra"><i>-</i></button>
+            </div>
+            <div class="sixthrow">
+                <button id="button"value="0"><i>0</i></button>
+                <button id="button"value="." class="extra"><i>.</i></button>
+                <button id="equals" value="="><i>=</i></button>
+            </div>            
+        </div>
+    </div>
+</body>
+<script src="logic.js"></script>
+</html>

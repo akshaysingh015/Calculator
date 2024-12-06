@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.bigbox{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.calcbox {
+    height: 73vh;
+    width: 20vw;
+    background-color: rgb(30, 29, 29);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #f6f7eb;
+}
+.firstrow{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#inputvalue{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(134, 126, 126);
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+/* #clear{
+    height: 48px;
+    width: 55px;
+    font-size: 25px;
+    background-color: rgb(233, 99, 3);
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px;
+    font-family: "Josefin Sans", sans-serif;
+} */
+#clear {
+    height: 48px;
+    width: 55px;
+    font-size: 25px;
+    background-color: rgb(233, 99, 3);
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Josefin Sans", sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+#clear:hover {
+    background-color: rgb(255, 120, 10);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+#clear:active {
+    background-color: rgb(200, 85, 2);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.secondrow{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+.thirdrow{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+.fourthrow{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+.fifthrow{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+.sixthrow{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+#button{
+    height: 45px;
+    width: 53px;
+    font-size: 25px;
+    background-color: black;
+    color: #ff7d00;
+    border-radius: 5px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.extra{
+    box-shadow: 2px 1px 5px;
+}
+.extras{
+    box-shadow: 2px 1px 5px;
+}
+#equals{
+    height: 45px;
+    width: 100px;
+    font-size: 25px;
+    background-color: black;
+    color: #ff7d00;
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px;
+    font-family: "Josefin Sans", sans-serif;
+}
+#delete{
+    height: 45px;
+    width: 53px;
+    font-size: 25px;
+    background-color: black;
+    color: #ff7d00;
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
